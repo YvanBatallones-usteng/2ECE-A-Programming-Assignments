@@ -10,6 +10,8 @@ This repository contains solutions to programming exercises implemented in Pytho
 * **Emoticon Problem**
   A program that detects specific words in an input string (`smile`, `grin`, `sad`, `mad`) and replaces them with corresponding emoticons.
 
+* **Unpacking List Problem**
+  A program that detaches the first and last indexes of an array and displays it seperately as 'First','Middle',and 'last'.
 ## File
 
 * `2ECEA_PA1_Batallones.ipynb` — Jupyter Notebook containing the solutions.
@@ -39,6 +41,18 @@ I feel sad today
 
 ```
 I feel :( today
+```
+
+**Unpacking List Input:**
+
+```python
+writeyourcodehere = [1,2,3,4,5,6]
+```
+
+**Output:**
+
+```
+first:  1 	middle:  [2, 3, 4, 5] 	last:  6
 ```
 
 ## Author / Student Info
